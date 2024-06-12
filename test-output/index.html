@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+              <span class="suite-name border-failed">Selenium Coding challenge Part 2- Naveen Automation Labs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>F:\workspace\SeleniumCodingChallenge2MMTRupam\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 3 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="hide-methods failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (hide)</a> <!-- hide-methods failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="show-methods failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (show)</a> <!-- show-methods failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                    </span>
+                    <div class="method-list-content failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" title="challenge2.mmt.tests.FlightCounts" hash-for-method="NoFilterFlightCounts">NoFilterFlightCounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" title="challenge2.mmt.tests.FlightCounts" hash-for-method="NoStopsFlightCount">NoStopsFlightCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" title="challenge2.mmt.tests.FlightCounts" hash-for-method="OnStopFlightCount">OnStopFlightCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="hide-methods skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (hide)</a> <!-- hide-methods skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="show-methods skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (show)</a> <!-- show-methods skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                    </span>
+                    <div class="method-list-content skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" title="challenge2.mmt.tests.FlightPrices" hash-for-method="FlightPrice">FlightPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="hide-methods passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (hide)</a> <!-- hide-methods passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                      <a href="#" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="show-methods passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs"> (show)</a> <!-- show-methods passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" title="challenge2.mmt.tests.SearchFlightTest" hash-for-method="searchFlights">searchFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+          <div class="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">challenge2.mmt.tests.FlightCounts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NoFilterFlightCounts">
+                  </a> <!-- NoFilterFlightCounts -->
+                  <span class="method-name">NoFilterFlightCounts</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13068, moz:profile: C:\Users\RUPAM\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8e94731-0562-4dda-a819-de6e614260a1
+*** Element info: {Using=xpath, value=//span[text()=&apos;Non Stop&apos;]/preceding-sibling::span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$220/1188401255.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at challenge.mmt.util.Wait.toBeclickable(Wait.java:16)
+	at challenge2.mmt.WebPages.FlightResultPage.departureFilightCount(FlightResultPage.java:56)
+	at challenge2.mmt.WebPages.FlightResultPage.NoFilterFlightCount(FlightResultPage.java:83)
+	at challenge2.mmt.tests.FlightCounts.NoFilterFlightCounts(FlightCounts.java:18)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NoStopsFlightCount">
+                  </a> <!-- NoStopsFlightCount -->
+                  <span class="method-name">NoStopsFlightCount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13068, moz:profile: C:\Users\RUPAM\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8e94731-0562-4dda-a819-de6e614260a1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.implicitlyWait(EventFiringWebDriver.java:670)
+	at challenge.mmt.util.ElementVisibility.isVisble(ElementVisibility.java:27)
+	at challenge2.mmt.WebPages.FlightResultPage.clearFilter(FlightResultPage.java:139)
+	at challenge2.mmt.WebPages.FlightResultPage.NoStopFlightCount(FlightResultPage.java:91)
+	at challenge2.mmt.tests.FlightCounts.NoStopsFlightCount(FlightCounts.java:31)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnStopFlightCount">
+                  </a> <!-- OnStopFlightCount -->
+                  <span class="method-name">OnStopFlightCount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13068, moz:profile: C:\Users\RUPAM\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8e94731-0562-4dda-a819-de6e614260a1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.implicitlyWait(EventFiringWebDriver.java:670)
+	at challenge.mmt.util.ElementVisibility.isVisble(ElementVisibility.java:15)
+	at challenge2.mmt.WebPages.FlightResultPage.clearFilter(FlightResultPage.java:139)
+	at challenge2.mmt.WebPages.FlightResultPage.oneStopFlightCount(FlightResultPage.java:101)
+	at challenge2.mmt.tests.FlightCounts.OnStopFlightCount(FlightCounts.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-failed -->
+          <div class="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">challenge2.mmt.tests.FlightPrices</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlightPrice">
+                  </a> <!-- FlightPrice -->
+                  <span class="method-name">FlightPrice</span>
+                  <div class="stack-trace">java.lang.RuntimeException: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13068, moz:profile: C:\Users\RUPAM\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8e94731-0562-4dda-a819-de6e614260a1
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAWN&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13068, moz:profile: C:\Users\RUPAM\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8e94731-0562-4dda-a819-de6e614260a1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.implicitlyWait(EventFiringWebDriver.java:670)
+	at challenge.mmt.util.ElementVisibility.isVisble(ElementVisibility.java:15)
+	at challenge2.mmt.WebPages.FlightResultPage.clearFilter(FlightResultPage.java:139)
+	at challenge2.mmt.tests.FlightPrices.dp(FlightPrices.java:54)
+	... 22 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-skipped -->
+          <div class="suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">challenge2.mmt.tests.SearchFlightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFlights">
+                  </a> <!-- searchFlights -->
+                  <span class="method-name">searchFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs-class-passed -->
+        </div> <!-- panel Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+        <div panel-name="test-xml-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\workspace\SeleniumCodingChallenge2MMTRupam\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Selenium Coding challenge Part 2- Naveen Automation Labs&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;challenge2.mmt.Listner.Listner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;search for Flights&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;challenge2.mmt.tests.TestSetup&quot;/&gt;
+      &lt;class name=&quot;challenge2.mmt.tests.SearchFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- search for Flights --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Count Flight with different Filters&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;challenge2.mmt.tests.FlightCounts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Count Flight with different Filters --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate Flight Prices&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;challenge2.mmt.tests.FlightPrices&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate Flight Prices --&gt;
+&lt;/suite&gt; &lt;!-- Selenium Coding challenge Part 2- Naveen Automation Labs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium Coding challenge Part 2- Naveen Automation Labs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">search for Flights (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Count Flight with different Filters (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate Flight Prices (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium Coding challenge Part 2- Naveen Automation Labs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium Coding challenge Part 2- Naveen Automation Labs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs');
+function tableData_Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchFlights')
+data.setCell(0, 2, 'challenge2.mmt.tests.SearchFlightTest')
+data.setCell(0, 3, 13666);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'NoFilterFlightCounts')
+data.setCell(1, 2, 'challenge2.mmt.tests.FlightCounts')
+data.setCell(1, 3, 12770);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NoStopsFlightCount')
+data.setCell(2, 2, 'challenge2.mmt.tests.FlightCounts')
+data.setCell(2, 3, 4842);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OnStopFlightCount')
+data.setCell(3, 2, 'challenge2.mmt.tests.FlightCounts')
+data.setCell(3, 3, 64);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'FlightPrice')
+data.setCell(4, 2, 'challenge2.mmt.tests.FlightPrices')
+data.setCell(4, 3, 0);
+window.suiteTableData['Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs']= { tableData: data, tableDiv: 'times-div-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs">
+              </div> <!-- times-div-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium Coding challenge Part 2- Naveen Automation Labs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_Coding_challenge_Part_2-_Naveen_Automation_Labs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">challenge2.mmt.tests.TestSetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">challenge2.mmt.tests.SearchFlightTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchFlights</span>
+                <span class="method-start">28279 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">challenge2.mmt.tests.FlightCounts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NoFilterFlightCounts</span>
+                <span class="method-start">42017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NoStopsFlightCount</span>
+                <span class="method-start">54811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OnStopFlightCount</span>
+                <span class="method-start">59663 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">challenge2.mmt.tests.TestSetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">59959 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
